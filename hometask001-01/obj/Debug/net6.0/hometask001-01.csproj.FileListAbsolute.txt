@@ -1,0 +1,15 @@
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\bin\Debug\net6.0\hometask001-01.exe
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\bin\Debug\net6.0\hometask001-01.deps.json
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\bin\Debug\net6.0\hometask001-01.runtimeconfig.json
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\bin\Debug\net6.0\hometask001-01.dll
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\bin\Debug\net6.0\hometask001-01.pdb
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\obj\Debug\net6.0\hometask001-01.csproj.AssemblyReference.cache
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\obj\Debug\net6.0\hometask001-01.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\obj\Debug\net6.0\hometask001-01.AssemblyInfoInputs.cache
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\obj\Debug\net6.0\hometask001-01.AssemblyInfo.cs
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\obj\Debug\net6.0\hometask001-01.csproj.CoreCompileInputs.cache
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\obj\Debug\net6.0\hometask001-01.dll
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\obj\Debug\net6.0\refint\hometask001-01.dll
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\obj\Debug\net6.0\hometask001-01.pdb
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\obj\Debug\net6.0\hometask001-01.genruntimeconfig.cache
+D:\GeekBrains\Учебная папка\C#(c-sharp) Hometasks\hometask001-01\obj\Debug\net6.0\ref\hometask001-01.dll
