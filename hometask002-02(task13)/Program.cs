@@ -1,18 +1,18 @@
 ﻿// The program that prints the third digit of a number (if it exists)
 
-void ThirdNum(int[] array)
+void ThirdNum(string a)
 {
-    if(array.Length > 2)
+    if (a.Length > 2)
     {
-        Console.WriteLine("The third number of " + array + " is " + array[2]);
+        Console.WriteLine("The third digit of " + a + " is " + a[2]);
     }
     else
     {
-        Console.WriteLine("The third number is not exists");
+        Console.WriteLine("The third digit is not exists");
     }
 }
 
 Console.WriteLine("Input you number: ");
-int usernumber = Convert.ToInt32(Console.ReadLine());
-userarray.ToBase64CharArray;
-ThirdNum(userarray);
+string usernumber = Console.ReadLine();
+
+ThirdNum(usernumber);
