@@ -19,6 +19,6 @@ Console.WriteLine("Input number A: ");
 int A = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input number B: ");
 int B = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(A);
-Console.WriteLine(B);
+//Console.WriteLine(A);
+//Console.WriteLine(B);
 Exponentiation(A, B);
