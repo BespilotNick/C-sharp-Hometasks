@@ -8,7 +8,7 @@ void ConverterFrom_10_To_2(int a)
 
     while (a > 0)
     {
-        res += (a % 2) * (Math.Pow(10, count));
+        res += (a % 2) * Math.Pow(10, count);
         a = a / 2;
         count += 1;
     }
