@@ -12,11 +12,11 @@ void IntersectionPoint(double k1, double b1, double k2, double b2)
 }
 
 Console.WriteLine("Input k1");
-double k1 = Convert.ToInt32(Console.ReadLine());
+double k1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Input b1");
-double b1 = Convert.ToInt32(Console.ReadLine());
+double b1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Input k2");
-double k2 = Convert.ToInt32(Console.ReadLine());
+double k2 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Input b2");
-double b2 = Convert.ToInt32(Console.ReadLine());
+double b2 = Convert.ToDouble(Console.ReadLine());
 IntersectionPoint(k1, b1, k2, b2);
