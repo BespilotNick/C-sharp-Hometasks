@@ -78,7 +78,7 @@ for (int i = 0; i < SpiralMatrix.GetLength(0); i++)
 
 
 // Пщпробуем немного оптимизировать:
-
+/*
 int size = 4;
 
 int[,] SpiralMatrix = new int[size, size];
@@ -109,5 +109,60 @@ for (int i = 0; i < size; i++)
     }
     Console.WriteLine();
 }
-
+*/
 // Так, вроде бы, больше похоже на язык программистов, но все равно чушь несусветная
+
+
+
+// Вызов принят - Написать программу, заполняющую массив по спирале за 5 циклов.
+
+Console.WriteLine("Input number of rows: ");
+int row = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input number of columns: ");
+int col = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Choose the start number: ");
+int start = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Choose the step: ");
+int step = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine();
+
+int k = start;
+
+int[,] spiralMatrix = new int[row, col];
+
+int begi = 0, begj = 0;
+int endi = 0, endj = 0;
+
+int i = 0, j = 0;
+
+while ((k - step) != (row*col*step + (start - step)))    // Определение конечного числа в матрице (с учетом начала и шага) и, соответственно,
+{                                                        // признака окончания работы цикла
+    spiralMatrix[i, j] = k;
+
+    if (i == begi && j < col - endj - 1)                    // определение направления заполнения
+        j++;
+    else if (j == col - 1 - endj && i < row - 1 - endi)
+        i++;
+    else if (i == row - 1 - endi && j > begj)
+        j--;
+    else
+        i--;
+
+    if ((i == begi + 1) && (j == begj) && (begj != col - 1 - endj)) // признак окончания цикла заполнения внешнего прямоугольника и переход к внутреннему
+    {
+        begi++;
+        endi++;
+        begj++;
+        endj++;
+    }
+    k = k + step;
+}
+
+for (int a = 0; a < row; a++)                       // При выводе матрицы используем индексы a и b по причине использования 
+{                                                   // i и j в общем пространстве имен выше
+    for (int b = 0; b < col; b++)                   // этого можно избежать если организовать код в виде 2х методов
+    {
+        Console.Write(spiralMatrix[a, b] + "\t");
+    }
+    Console.WriteLine();
+}
